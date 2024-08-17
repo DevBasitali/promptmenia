@@ -1,3 +1,4 @@
+import Feed from "@components/Feed";
 
 
 const Home = () => {
@@ -10,6 +11,8 @@ const Home = () => {
         <p className="desc text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure nulla quo iusto accusantium voluptas. Obcaecati neque ducimus maxime
         </p>
+
+        <Feed/>
     </section>
   );
 }
